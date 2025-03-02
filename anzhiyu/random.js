@@ -1,0 +1,3 @@
+var posts=["posts/16107.html","posts/49970.html","posts/63534.html","/post/the-first-note-2aifn5.html"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
